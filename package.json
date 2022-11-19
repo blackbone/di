@@ -1,0 +1,12 @@
+{
+    "name": "com.blackbone.dependencyinjection",
+    "displayName": "[B] Dependency Injection",
+    "version": "0.0.1",
+    "unity": "2020.3",
+    "description": "Simple IoC solution",
+    "dependencies": {},
+    "author": {
+        "name": "Dmytro Osipov",
+        "email": "blackboneworks@gmail.com"
+    }
+}
