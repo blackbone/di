@@ -1,7 +1,9 @@
 {
     "name": "DependencyInjection",
     "rootNamespace": "DependencyInjection",
-    "references": [],
+    "references": [
+        "Transiency"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

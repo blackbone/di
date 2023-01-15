@@ -1,7 +1,7 @@
-﻿namespace DependencyInjection
-{
-    using System;
+﻿using System;
 
+namespace DependencyInjection
+{
     internal class InvalidInheritanceException : Exception
     {
         public InvalidInheritanceException(Type api, Type impl)

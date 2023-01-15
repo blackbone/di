@@ -1,7 +1,7 @@
-﻿namespace DependencyInjection
-{
-    using System;
+﻿using System;
 
+namespace DependencyInjection
+{
     public class ImplementationConfig
     {
         public Type Impl { get; }

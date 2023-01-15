@@ -1,8 +1,8 @@
-﻿namespace DependencyInjection
+﻿using System;
+using System.Reflection;
+
+namespace DependencyInjection
 {
-    using System;
-    using System.Reflection;
-    
     internal sealed class CycleDependencyException : Exception
     {
         public CycleDependencyException(Type type, ConstructorInfo ctor)

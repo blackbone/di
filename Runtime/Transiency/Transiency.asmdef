@@ -1,0 +1,16 @@
+{
+    "name": "Transiency",
+    "rootNamespace": "Transiency",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!IOC_TRANSIENCY"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
