@@ -5,7 +5,7 @@ This is a simple as possible DI for unity. Nothing special.
 ## Installation
 Simply add as git package in unity or a line below to `manifest.json`
 
-`"com.blackbone.di": "https://github.com/blackbone/di.git#v0.2.0"`
+`"com.blackbone.di": "https://github.com/blackbone/di.git#v0.3.0"`
 
 ## Usage
 
@@ -295,6 +295,18 @@ _container.UnregisterTransientObject("sceneName");
 // registered values can be returned with overload with out parameter to give ability to dispose objects
 // also returning bool indicating if it successfull or not
 ```
+
+## Roadmap
+
+No fixed roadmap there but i'm interested in your requests and ideas.
+
+Here's couple short term ideas:
+
+- [ ] Code generated resolver
+- [ ] Code generated installers \ bootstrap registration
+- [ ] Custom resolution factories
+- [ ] Integrations with other (my) packages
+- [ ] Improve the docs \ samples \ describe some general use cases
 
 ## Contribution and Feedback
 
